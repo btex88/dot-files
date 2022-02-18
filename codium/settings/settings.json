@@ -1,129 +1,119 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.sideBar.location": "right",
-  
-    "code-eol.highlightExtraWhitespace": true,
-    "code-eol.newlineCharacter": "↵",
-  
-    "editor.fontFamily": "'Operator Mono Lig', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "normal",
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on",
-    "editor.renderWhitespace": "all",
-    "editor.autoClosingQuotes": "always",
-    "editor.autoIndent": "full",
-    "editor.autoClosingBrackets": "always",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.tabSize": 2,
-    "editor.rulers": [90],
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "workbench.editor.enablePreview": false,
-
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.showAbbreviationSuggestions": true,
-  
-    "tabnine.experimentalAutoImports": true,
-  
-    "cSpell.language": "en,en-GB,en-US,pt,pt-BR",
-  
-    "code-runner.clearPreviousOutput": true,
-  
-    "prettier.singleQuote": true,
-    "prettier.arrowParens": "always",
-    "prettier.trailingComma": "all",
-  
-    "eslint.lintTask.options": "always",
-    "eslint.validate": [
-      "javascript"
-    ],
-    "[javascript]": {
-      // "editor.defaultFormatter": "esbenp.prettier-vscode"
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDelete": false,
-    "[html]": {
-      // "editor.defaultFormatter": "esbenp.prettier-vscode"
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.title": "${activeEditorLong}${separator}${rootName}${separator}",
-    "breadcrumbs.enabled": true,
-    "explorer.compactFolders": false,
-    "workbench.colorTheme": "Dracula",
-    "workbench.colorCustomizations": {
-      "editorRuler.foreground": "#d3bc91b0"
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "code-eol.highlightExtraWhitespace": true,
+  "code-eol.newlineCharacter": "↵",
+  "editor.fontFamily": "'Operator Mono Lig', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoIndent": "full",
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    90
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
-
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": [ //following will be in italic (=FlottFlott)
-            "comment",
-            "entity.name.type.class", //class names
-            "keyword", //import, export, return…
-            "constant", //String, Number, Boolean…, this, super
-            "storage.modifier", //static keyword
-            "storage.type.class.js" //class keyword
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": [
-            //following will be excluded from italics (VSCode has some defaults for italics)
-            "invalid",
-            "keyword.operator",
-            "constant.numeric.css",
-            "keyword.other.unit.px.css",
-            "constant.numeric.decimal.js",
-            "constant.numeric.json"
-          ],
-          "settings": {
-            "fontStyle": ""
-          }
+  "workbench.editor.enablePreview": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showAbbreviationSuggestions": true,
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.language": "en,en-GB,en-US,pt,pt-BR",
+  "code-runner.clearPreviousOutput": true,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "always",
+  "prettier.trailingComma": "all",
+  "eslint.lintTask.options": "always",
+  "eslint.validate": [
+    "javascript"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.title": "${activeEditorLong}${separator}${rootName}${separator}",
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "Dracula At Night",
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#d3bc91b0"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [ //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
         }
-      ]
-    },
-    "standard.autoFixOnSave": true,
-    "standard._legacyModuleResolve": true,
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "cSpell.allowCompoundWords": true,
-  
-    "eslint.alwaysShowStatus": true,
-    "eslint.format.enable": true,
-    "eslint.quiet": true,
-    "files.autoSave": "afterDelay",
-    "workbench.iconTheme": "material-icon-theme",
-    "security.workspace.trust.untrustedFiles": "open",
-    "sync.gist": "21febbaaabd3f0035051bb4bd6bf3e36",
-    "sync.quietSync": true,
-    "sync.autoDownload": true,
-    "sync.autoUpload": true,
-    "sync.forceDownload": true,
-    "sync.forceUpload": true,
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "cSpell.userWords": [
-      "aveilible"
-    ],
-    "eslint.debug": true,
-    "eslint.lintTask.enable": true,
-    "eslint.probe": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "html",
-      "vue",
-      "markdown",
-      "react"
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
     ]
-  }
+  },
+  "standard.autoFixOnSave": true,
+  "standard._legacyModuleResolve": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cSpell.allowCompoundWords": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.quiet": true,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "sync.gist": "21febbaaabd3f0035051bb4bd6bf3e36",
+  "sync.quietSync": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": true,
+  "sync.forceUpload": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "cSpell.userWords": [
+    "aveilible"
+  ],
+  "eslint.debug": true,
+  "eslint.lintTask.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "react"
+  ],
+}
