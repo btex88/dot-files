@@ -95,7 +95,7 @@
   "files.autoSave": "afterDelay",
   "workbench.iconTheme": "material-icon-theme",
   "security.workspace.trust.untrustedFiles": "open",
-  "sync.gist": "21febbaaabd3f0035051bb4bd6bf3e36",
+  "sync.gist": "",
   "sync.quietSync": true,
   "sync.autoUpload": true,
   "sync.forceDownload": true,
